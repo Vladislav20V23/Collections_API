@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 @Builder
 public class User {
 
-    private String nameUser;
+    public String nameUser;
     private String mail;
     private String phoneNumber;
     private List<User> applications;
@@ -52,6 +52,7 @@ public class User {
                 ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
+
 
 
 }
