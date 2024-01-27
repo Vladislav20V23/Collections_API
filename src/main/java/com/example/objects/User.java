@@ -15,6 +15,7 @@ public class User {
     public String nameUser;
     private String mail;
     private String phoneNumber;
+
     private List<User> applications;
 
     public User(String nameUser, String mail, String phoneNumber) {
@@ -43,6 +44,8 @@ public class User {
         return applications;
 
     }
+
+
 
     @Override
     public String toString() {
